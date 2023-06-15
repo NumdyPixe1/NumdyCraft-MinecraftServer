@@ -22,6 +22,7 @@ body {
 h1 {
     font-size: 64px;
     color: #1969b4;
+    margin: 0;
 }
 
 .top-section {
@@ -66,4 +67,15 @@ a:visited {
     filter: brightness(50%);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.banner-text {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 64px;
+    align-items: center;
+    color: #FFFFFF !important;
+    height: inherit;
+    font-size: 64px;
+    /* mix-blend-mode: difference; */
 }
