@@ -25,11 +25,11 @@ h1 {
     margin: 0;
 }
 
-.top-section {
-    background-color: #313131;
+/* .top-section {
+    background-color: #183B4E;
     margin: 0px;
     padding: 10px;
-}
+} */
 
 .logo {
     color: #1969b4;
@@ -41,7 +41,7 @@ h1 {
 
 .nav-content {
     padding: 16px 0px;
-    background-color: #313131;
+    background-color: #183B4E;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -50,32 +50,56 @@ h1 {
 
 /* All about anchor */
 .nav-content a {
+    color: #F5EEDC;
     text-decoration: none;
 }
 
-a:visited {
+/* a:visited {
     text-decoration: none;
-    color: #1969b4;
-}
+    color: #76b419;
+} */
 
 /* Image section */
 .banner-container {
-    height: 540px;
+    height: 720px;
     /* max-height: 320px; */
     /* padding: 0; */
-    background-image: url('https://shadersmods.com/wp-content/uploads/2021/07/projectluma-shaders-minecraft-19.png');
-    filter: brightness(50%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://shadersmods.com/wp-content/uploads/2021/07/projectluma-shaders-minecraft-19.png');
+    /* filter: brightness(50%); */
     background-repeat: no-repeat;
     background-position: center;
+    
+}
+.header-news, .banner-news {
+    width: 50rem;
+    text-align: center;
+
+    margin: 0 auto;    
+
+}
+.header-news{background-color: #dd5353;
+height: 150px;
+
+}
+.container-news{
+background-color: #DDA853;
+height: 540px;
+padding: 40px;
+}
+.banner-news{
+    height: 400px;
+    background-color: #2709aa;
+
 }
 
 .banner-text {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     padding: 0px 64px;
     align-items: center;
-    color: #FFFFFF !important;
+    color: #F5EEDC !important;
     height: inherit;
     font-size: 64px;
+
     /* mix-blend-mode: difference; */
 }
